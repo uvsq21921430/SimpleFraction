@@ -52,6 +52,10 @@ public class Fraction
         return F;
     }
 
+    public String toString ()
+    {
+        return " "+this.numerator+" / "+this.denumerator+" ";
+    }
 
 
 }
